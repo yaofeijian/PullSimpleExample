@@ -11,7 +11,7 @@
 #import "UIViewController+PullView.h"
 
 @interface ViewController ()<UIPullViewDelegate>
-@property (nonatomic, strong) UIPullView* pullView;
+@property (nonatomic, strong) UIPullView *pullView;
 @property (nonatomic, strong) UILabel *headLable;
 @end
 
