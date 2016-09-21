@@ -283,14 +283,7 @@
             }else {
                 [self dismiss:YES];
             }
-        }
-        
-        //        if ([self.isPanDwon boolValue]) {    //向下滑动
-        //            [self show:YES];
-        //        }else {
-        //            [self dismiss:YES];
-        //        }
-        
+        }        
         
     }
     self.scrollY = @(translatedPoint.y);

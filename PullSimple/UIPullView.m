@@ -17,7 +17,6 @@
 @property (nonatomic, strong) UIImageView *pullImageView;
 
 
-@property (nonatomic) BOOL isUnfold;    //是否已经展开，默认NO，没有展开
 @end
 
 @implementation UIPullView

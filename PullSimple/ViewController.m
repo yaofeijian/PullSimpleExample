@@ -28,10 +28,12 @@
     self.pullView.frame = CGRectMake(0,kTopHeadLabel + kHeightHeadLabel - [UIPullView heightForContentView], self.view.frame.size.width, [UIPullView heightForView]);
     [self insertPullView:self.pullView belowView:self.headLable contentViewHeight:[UIPullView heightForContentView] presentCallBack:^{
         NSLog(@"present");
+        self.pullView.isUnfold = YES;
         [UIView animateWithDuration:0.5 animations:^{
             self.pullView.arrowBtn.imageView.transform = CGAffineTransformMakeRotation(M_PI);
         }];
     } dimissedCallBack:^{
+        self.pullView.isUnfold = NO;
         [UIView animateWithDuration:0.5 animations:^{
             self.pullView.arrowBtn.imageView.transform = CGAffineTransformMakeRotation(0);
         }];

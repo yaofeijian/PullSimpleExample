@@ -35,6 +35,8 @@
 
 @property (nonatomic, strong) UIButton* arrowBtn;
 @property (nonatomic, weak) id<UIPullViewDelegate> delegate;
+@property (nonatomic, assign) BOOL isUnfold;    //是否已经展开，默认NO，没有展开
+
 + (CGFloat)heightForBottomPullView;
 + (CGFloat)heightForContentView;
 + (CGFloat)heightForView;
