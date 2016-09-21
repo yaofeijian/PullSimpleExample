@@ -161,9 +161,9 @@
 		5157027E1D92606A008D22DB /* PullView */ = {
 			isa = PBXGroup;
 			children = (
-				515702811D92606A008D22DB /* UIViewController+PullView.h */,
 				515702891D927A49008D22DB /* UIView+Extension.h */,
 				5157028A1D927A49008D22DB /* UIView+Extension.m */,
+				515702811D92606A008D22DB /* UIViewController+PullView.h */,
 				515702821D92606A008D22DB /* UIViewController+PullView.m */,
 			);
 			path = PullView;
